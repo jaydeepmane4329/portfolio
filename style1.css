@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(images/maxresdefault.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+.navbar-light{
+    background: transparent !important;
+}
+
+.navbar-nav{
+    font-size: 30px;
+}
+.nav-link {
+    color:gray !important;
+    font-family: 'Viaoda Libre', cursive !important;
+    font-weight: 900;
+}
+.nav-link:hover{
+    background-color: orange !important;
+}
+.navbar-brand{
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Abril Fatface', cursive;
+    color: darkorchid !important;
+}
+ .intro{
+    margin-top: 50px;
+    float: left;
+} 
+.intro h1{
+    font-size: 50px;
+    font-family: sans-serif;
+} 
+.intro h2{
+    margin: 20px;
+    color: grey;
+} 
+.intro .icon{
+    margin: 20px;
+}
+.icon li {
+         display: inline;
+}
+.icon a{
+    background:rgb(252, 237, 237);
+    border-radius: 10px;
+    margin: 50px 0px 30px 50px;
+    padding: 15px;
+    font-size: 40px;
+    color: blue;
+}
+ .intro .icon a:hover{
+        font-size: 30px;
+        background: black;
+        border-radius: 10px;
+        transition: all 300ms linear;
+}
+.container .design-logo{
+    margin: 0px 0px 0px 50px;
+   float: left;
+   width: 40%;
+   animation: design-logo  linear  1s;
+}
+@keyframes design-logo{
+    50% { transform: scale(-0.0) ;
+    };
+    100% {transform: scale(-0.5)};
+}
+  h1{
+    position: relative;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+} 
+ h1::before{
+        content: attr(data-text);
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        color: #11ec86;
+        -webkit-text-stroke: 0vw #383d52;
+        border-right: 2px solid #01fe87;
+        overflow: hidden;
+        animation: animate 6s linear infinite;
+}   
+
+ @keyframes animate
+{
+    0%,10%,100%{
+        width: 0%;
+    }
+    70%,50%{
+        width: 100%;
+    }
+} 
+ 
+    footer{
+        /* transform: translateX(40%); */
+        text-align: center;
+        margin-top: 450px;
+        margin-bottom: 50px;
+        clear: both;
+        font-size: 20px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1px;
+     } 
+     footer i{
+         color: red;
+     }
+
+
+    .container .design-logo{
+        margin: 0px 0px 0px 00px;
+       float: left;
+       width: 40%;
+       animation: design-logo 20s linear ;
+    
+}
+
+@media only screen and (max-width:992px){
+    .intro h1{
+        margin: 50px 0px 0px 180px;
+        font-size: 40px;
+    }
+    .intro h2{
+        font-size: 20px;
+        margin: 20px 0px 0px 180px;
+        color: grey;
+    }
+    .intro .icon{
+        margin: 60px 0px 20px 130px;
+    }
+    .icon li {
+             display: inline;
+    }
+    .icon a{
+        background:rgb(252, 237, 237);
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 25px;
+        color: blue;
+    }
+     .intro .icon a:hover{
+            font-size: 35px;
+            background: black;
+            border-radius: 10px;
+            transition: all 300ms linear;
+    }
+    .container .design-logo{
+       margin:20px 20px 40px 150px ;
+       width: 100%;
+       animation: design-logo 10s linear ;
+       transition: linear;
+    }
+    footer{
+        /* transform: translateX(40%); */
+        margin-top: 450px;
+        margin-bottom: 50px
+    }
+    footer i{
+        color: red;
+    }
+    h1{
+        position: relative;
+        color: #252839;
+        -webkit-text-stroke: 0.3vw #383d52;
+    } 
+     h1::before{
+            content: attr(data-text);
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            color: #11ec86;
+            -webkit-text-stroke: 0vw #383d52;
+            border-right: 2px solid #01fe87;
+            overflow: hidden;
+            animation: animate 6s linear infinite;
+    }  
+
+
+    .navbar-nav{
+        font-size: 26px;
+    }
+    .nav-link {
+        color:black !important;
+    }
+    .nav-link:hover{
+        background-color:green !important;
+    }
+
+    @keyframes animate{
+    0%,10%,100%{
+        width: 0%;
+    }
+    70%,50%{
+        width: 100%;
+    }
+}
+}
+    
+@keyframes design-logo{
+        50% { transform: scale(-0.0) ;
+        };
+        100% {transform: scale(-0.5)};
+ }
+
+
+
+
+ @media only screen and (max-width:767px){
+     body{
+         height: 100%;
+     }
+    .intro h1{
+        margin: 50px 0px 0px 50px;
+        font-size: 40px;
+    }
+    .intro h2{
+        font-size: 20px;
+        margin: 20px 0px 0px 50px;
+        color: grey;
+    }
+    .intro .icon{
+        margin: 60px 0px 20px 0px;
+    }
+    .icon li {
+             display: inline;
+    }
+    .icon a{
+        background:rgb(252, 237, 237);
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 25px;
+        color: blue;
+    }
+     .intro .icon a:hover{
+            font-size: 35px;
+            background: black;
+            border-radius: 10px;
+            transition: all 300ms linear;
+    }
+    .container .design-logo{
+       margin:20px 20px 40px 40px ;
+       width: 100%;
+       animation: design-logo 20s linear ;
+       transition: linear;
+    }
+    footer{
+        /* transform: translateX(45%); */
+        margin-top: 550px;
+        margin-bottom: 50px;
+
+    }
+    footer i{
+        color: red;
+    }
+    h1{
+        position: relative;
+        color: #252839;
+        -webkit-text-stroke: 0.3vw #383d52;
+    } 
+     h1::before{
+            content: attr(data-text);
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            color: #11ec86;
+            -webkit-text-stroke: 0vw #383d52;
+            border-right: 2px solid #01fe87;
+            overflow: hidden;
+            animation: animate 6s linear infinite;
+    }  
+
+
+    .navbar-nav{
+        font-size: 22px;
+    }
+    .nav-link {
+        color:black !important;
+    }
+    .nav-link:hover{
+        background-color:grey !important;
+    }
+
+    @keyframes animate
+{
+    0%,10%,100%{
+        width: 0%;
+    }
+    70%,50%{
+        width: 100%;
+    }
+}
+
+    @keyframes design-logo{
+        50% { transform: scale(-0.0) ;
+        };
+        100% {transform: scale(-0.5)};
+    }
+ }
+
+
+
+@media only screen and (max-width:480px) {
+    .intro h1{
+        font-size: 20px;
+        margin:  50px 0px 0px 50px;
+    }
+    .intro h2{
+        font-size: 16px;
+        margin: 20px 0px 0px 50px;
+        color: grey;
+    }
+    .icon ul{
+          margin: 50px;
+    }
+    .icon a{
+        font-size: 20px;
+        margin: 60px 0px 0px 10px;
+    }
+h1{
+    position: relative;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+}
+
+    h1::before{
+        content: attr(data-text);
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 0%;
+        height: 100%;
+        color: #11ec86;
+        -webkit-text-stroke: 0vw #383d52;
+        border-right: 2px solid #01fe87;
+        overflow: hidden;
+        animation: animate 6s linear infinite;
+}
+ .intro .icon{
+     margin: 50px 0px 0px 30px;
+ }
+.intro .icon a:hover{
+    font-size: 22px;
+    background: black;
+    border-radius: 10px;
+    transition: all 300ms linear;
+}
+.container .design-logo{
+    margin: 40px 0px 0px 0px;
+   width: 100%;
+   animation: design-logo 10s linear ;
+   transition: linear;
+}
+footer{
+   /* transform: translateX(40%); */
+   margin-top: 450px;
+   margin-bottom: 50px;
+}
+footer i{
+    color: red;
+
+}
+.navbar-nav{
+    font-size: 18px;
+    text-align: center;
+}
+.nav-link {
+    color:black !important;
+}
+.nav-link:hover{
+    background-color: orange !important;
+    font-size: 15px;
+}
+.navbar-brand{
+     font-size: 30px !important;
+}
+
+@keyframes design-logo{
+    50% { transform: scale(-0.0) ;
+    };
+    100% {transform: scale(-0.5)};
+}
+
+@keyframes animate
+{
+    0%,10%,90%{
+        width: 0%;
+    }
+    70%,100%{
+        width: 100%;
+    }
+}
+}
+
+
+

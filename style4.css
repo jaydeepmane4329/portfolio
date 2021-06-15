@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(images/maxresdefault.jpg);
+    background-size: cover;
+    background-position:center ;
+    clear: both;
+}
+.navbar-light{
+    background: transparent !important;
+}
+.navbar-nav{
+    font-size: 30px;
+}
+.nav-link {
+    color:grey !important;
+    font-family: 'Viaoda Libre', cursive !important;
+    font-weight: 900;
+}
+.nav-link:hover{
+    background-color: orange !important;
+}
+.navbar-brand{
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Abril Fatface', cursive;
+    color: darkorchid !important;
+}
+.Profile{
+    width: 50%;
+    float: left;
+}
+ .Profile img{
+    border-radius: 100px;
+    border: 5px solid black;
+    margin: 60px 0px 50px 300px;
+}
+.content{
+    float: left;
+    width: 50%;
+    margin: 70px 0px 50px 0px;
+} 
+.content h1{
+    font-size: 40px;
+    font-weight:900 ;
+    font-family: fantasy;
+    color: black;
+    letter-spacing: 10px;
+} 
+
+.content p{
+    color: rgb(61, 53, 53);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    width: 50%;
+} 
+.icons ul{
+    list-style-type: none;
+}
+.icons li{
+    text-decoration: none;
+    display: inline;
+
+}
+.icons li a{
+    margin-left: 50px;
+    font-size: 40px; 
+}
+ .icons  li a:hover{
+     font-size: 30px;
+}
+.connect{
+    height: auto;
+    background-color: black;
+    border-radius: 50px;
+    width: 70%;
+    clear: both;
+    /* margin-left: 220px; */
+    margin: auto;
+}
+h2{
+    color: white;
+    -webkit-text-stroke: 1px green;
+    text-align: center;
+    font-size: 50px;
+}
+.formcontainer{
+    border-radius: 10px;
+    background-color: black;
+    opacity: .5;
+    margin: 50px;
+    width: 70%;
+    margin: auto;
+}
+form{
+    margin: 50px;
+}
+.name{
+     font-size: 30px;
+     color: white;
+}
+#name{
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.number{
+    font-size: 30px;
+     color:white;   
+}
+#number{
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.email{
+    font-size: 30px;
+    color: white;
+}
+#number{
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.comments{
+    font-size: 30px;
+    color: white;
+}
+#comments{
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.button{
+    color:white;
+    padding: 4px;
+    border-radius: 5px;
+    background: rgb(141, 141, 207);
+}
+ .content .btn{
+   margin-left: 150px;
+}
+footer{
+    text-align: center;
+    margin: 50px;
+    clear: both;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+footer i{
+    color: red;
+}
+
+@media only screen and (max-width:1024px){
+    .Profile{
+        width: 100%;
+    }
+     .Profile img{
+        margin: 30px 0px 50px 400px;
+    }
+    .content{
+        width: 100%;
+        margin: 30px 0px 50px 270px;
+    } 
+}
+
+@media only screen and (max-width:767px){
+    .Profile{
+        width: 100%;
+    }
+     .Profile img{
+        margin: 30px 0px 50px 300px;
+    }
+    .content{
+        width: 100%;
+        margin: 30px 0px 50px 160px;
+    } 
+    .navbar-nav{
+        font-size: 18px;
+    }
+    .nav-link {
+        color:black !important;
+        text-align: center;
+    }
+    .nav-link:hover{
+        background-color: rgb(126, 230, 126) !important;
+        font-size: 20px;
+    }
+    .navbar-brand{
+        font-size: 40px;
+        margin-left: 20px;
+        color: blue !important;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .Profile{
+        width: 100%;
+    }
+     .Profile img{
+        margin: 30px 0px 0px 160px;
+        height: 200px;
+    }
+    .content{
+        width: 100%;
+        margin: 20px 0px 50px 100px;
+    } 
+    .content h1{
+        font-size: 25px;
+        letter-spacing: 3px;
+    } 
+    
+    .content p{
+        font-size: 16px;
+    } 
+
+    .icons ul{
+        margin: 20px 0px 5px 42px;
+    }
+    .icons li a{
+        margin-left: 10px;
+        font-size: 25px; 
+    }
+     .icons  li a:hover{
+         font-size: 28px;
+    }
+     .content .btn{
+        padding: 6px;
+        font-size: 10px;
+        margin: 5px 0px 20px 80px;
+    }
+    h2{
+        color: white;
+        -webkit-text-stroke: 1px green;
+        text-align: center;
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .formcontainer{
+        border-radius: 10px;
+        /* background-color: grey; */
+        background-color: black;
+        opacity: .500;
+        width: 90%;
+        margin: auto;
+    }
+    form h1{
+        font-size: 25px;
+    }
+    form{
+        margin: 10px;
+    }
+    .name{
+         font-size: 20px;
+         color:white;
+    }
+    .number{
+        font-size: 20px;
+         color:white;   
+    }
+  
+    .email{
+        font-size: 20px;
+        color: white;
+    }
+   
+    .comments{
+        font-size: 20px;
+        color: white;
+    }
+    .navbar-nav{
+        font-size: 18px;
+    }
+    .nav-link {
+        color:black !important;
+        text-align: center;
+    }
+    .nav-link:hover{
+        background-color: grey !important;
+        font-size: 20px;
+    }
+    .navbar-brand{
+        font-size: 30px;
+        margin-left: 20px;
+        color: blue !important;
+    }
+}
