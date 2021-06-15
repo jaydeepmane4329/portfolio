@@ -241,6 +241,7 @@ footer i{
     } 
     .content h1{
         font-size: 25px;
+        letter-spacing: 0;
     } 
     
     .content p{
