@@ -246,8 +246,7 @@ footer i{
     
     .content p{
         font-size: 16px;
-        width: 50%;
-        margin: auto;
+        width: 100%;
     } 
 
     .icons ul{
@@ -324,6 +323,6 @@ footer i{
         color: darkorchid !important;
     }
     footer{
-        width: 100%;
+        font-size: 18px;
     }
 }
