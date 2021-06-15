@@ -241,7 +241,6 @@ footer i{
     } 
     .content h1{
         font-size: 25px;
-        letter-spacing: 3px;
     } 
     
     .content p{
@@ -278,8 +277,7 @@ footer i{
         /* background-color: grey; */
         background-color: black;
         opacity: .500;
-        width: 90%;
-        margin-left: 60px;
+        width: 100%;
     }
     form h1{
         font-size: 25px;
