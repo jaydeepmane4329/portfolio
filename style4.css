@@ -306,6 +306,7 @@ footer i{
     }
     .navbar-nav{
         font-size: 18px;
+        width: 100%;
     }
     .nav-link {
         color:black !important;
@@ -317,7 +318,7 @@ footer i{
     }
     .navbar-brand{
         font-size: 35px;
-        margin-left: 20px;
-        color: blue !important;
+        /* margin-left: 20px; */
+        color: darkorchid !important;
     }
 }
