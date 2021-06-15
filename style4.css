@@ -247,6 +247,7 @@ footer i{
     .content p{
         font-size: 16px;
         width: 50px;
+        margin: auto;
     } 
 
     .icons ul{
