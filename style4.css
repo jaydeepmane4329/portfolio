@@ -13,40 +13,49 @@ body{
     background-position:center ;
     clear: both;
 }
+/* background of navbar */
 .navbar-light{
     background: transparent !important;
 }
+/* font size of nav links  */
 .navbar-nav{
     font-size: 30px;
 }
+/* links of all four pages of website */
 .nav-link {
     color:grey !important;
     font-family: 'Viaoda Libre', cursive !important;
     font-weight: 900;
 }
+/* hovering eefct for navbar links */
 .nav-link:hover{
     background-color: orange !important;
 }
+/* logo of navabr "jaydeep mane" */
 .navbar-brand{
     font-size: 50px;
     margin-left: 20px;
     font-family: 'Abril Fatface', cursive;
     color: darkorchid !important;
 }
+/* profile to handle space around photo while floating  */
 .Profile{
     width: 50%;
     float: left;
 }
+/* My own image */
  .Profile img{
     border-radius: 100px;
     border: 5px solid black;
     margin: 60px 0px 50px 300px;
 }
+/* content which includes contact info */
 .content{
     float: left;
     width: 50%;
     margin: 70px 0px 50px 0px;
 } 
+/* heading of content */
 .content h1{
     font-size: 40px;
     font-weight:900 ;
@@ -63,6 +72,7 @@ body{
     text-align: center;
     width: 50%;
 } 
+/* unordered list */
 .icons ul{
     list-style-type: none;
 }
@@ -71,6 +81,7 @@ body{
     display: inline;
 
 }
+/* social media links */
 .icons li a{
     margin-left: 50px;
     font-size: 40px; 
@@ -93,6 +104,7 @@ h2{
     text-align: center;
     font-size: 50px;
 }
+/* holding form inside it */
 .formcontainer{
     border-radius: 10px;
     background-color: black;
@@ -101,45 +113,55 @@ h2{
     width: 70%;
     margin: auto;
 }
+/* form */
 form{
     margin: 50px;
 }
+/* lable of name */
 .name{
      font-size: 30px;
      color: white;
 }
+/* text area for name */
 #name{
     width: 200px;
     border-radius: 5px;
     border: 1px solid black;
 }
+/* lable for number */
 .number{
     font-size: 30px;
      color:white;   
 }
+/* number space */
 #number{
     width: 200px;
     border-radius: 5px;
     border: 1px solid black;
 }
+/* email lable  */
 .email{
     font-size: 30px;
     color: white;
 }
+/* text area of number  */
 #number{
     width: 200px;
     border-radius: 5px;
     border: 1px solid black;
 }
+/* lable for comments */
 .comments{
     font-size: 30px;
     color: white;
 }
+/* space of text area for feedbsck */
 #comments{
     width: 200px;
     border-radius: 5px;
     border: 1px solid black;
 }
+/* submit button for form */
 .button{
     color:white;
     padding: 4px;
@@ -149,6 +171,7 @@ form{
  .content .btn{
    margin-left: 150px;
 }
+/* footer */
 footer{
     text-align: center;
     margin: 50px;
@@ -157,10 +180,11 @@ footer{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
 }
+/* footer icon */
 footer i{
     color: red;
 }
-
+/* for laptops,ipad's */
 @media only screen and (max-width:1024px){
     .Profile{
         width: 100%;
@@ -173,7 +197,7 @@ footer i{
         margin: 30px 0px 50px 270px;
     } 
 }
-
+/* tablets */
 @media only screen and (max-width:767px){
     .Profile{
         width: 100%;
@@ -202,7 +226,7 @@ footer i{
         color: blue !important;
     }
 }
-
+/* mobile responsive */
 @media only screen and (max-width:500px){
     .Profile{
         width: 100%;

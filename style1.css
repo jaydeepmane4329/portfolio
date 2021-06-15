@@ -1,3 +1,4 @@
+/* universal selector to give property at a time to all */
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -12,45 +13,55 @@ body{
     background-size: cover;
     background-position:center ;
 }
+/*  for background of navbar  */
 .navbar-light{
     background: transparent !important;
 }
-
+/* font size of menu items  */
 .navbar-nav{
     font-size: 30px;
 }
+/* all four pages hyper links  */
 .nav-link {
     color:gray !important;
     font-family: 'Viaoda Libre', cursive !important;
     font-weight: 900;
 }
+/* hovering effect of hyper link */
 .nav-link:hover{
     background-color: orange !important;
 }
+/* logo for navbar "jaydeep mane" */
 .navbar-brand{
     font-size: 50px;
     margin-left: 20px;
     font-family: 'Abril Fatface', cursive;
     color: darkorchid !important;
 }
+/* introduction  part */
  .intro{
     margin-top: 50px;
     float: left;
 } 
+/* introduction heading "hello i am jay" */
 .intro h1{
     font-size: 50px;
     font-family: sans-serif;
 } 
+/* "passionate developer" */
 .intro h2{
     margin: 20px;
     color: grey;
 } 
+/* social media  icons */
 .intro .icon{
     margin: 20px;
 }
+/* social icons list  */
 .icon li {
          display: inline;
 }
+/* anchor link of all social media platforms */
 .icon a{
     background:rgb(252, 237, 237);
     border-radius: 10px;
@@ -59,28 +70,33 @@ body{
     font-size: 40px;
     color: blue;
 }
+/* hovering effect for social media icons */
  .intro .icon a:hover{
         font-size: 30px;
         background: black;
         border-radius: 10px;
         transition: all 300ms linear;
 }
+/* image in home page  */
 .container .design-logo{
     margin: 0px 0px 0px 50px;
    float: left;
    width: 40%;
    animation: design-logo  linear  1s;
 }
+/* give animation to image  */
 @keyframes design-logo{
     50% { transform: scale(-0.0) ;
     };
     100% {transform: scale(-0.5)};
 }
+/* give diifrent properties to heading to change it's text border */
   h1{
     position: relative;
     color: #252839;
     -webkit-text-stroke: 0.3vw #383d52;
 } 
+/* to give animation to intro heading */
  h1::before{
         content: attr(data-text);
         position: absolute;
@@ -94,6 +110,7 @@ body{
         overflow: hidden;
         animation: animate 6s linear infinite;
 }   
+/* animation for heading in intro */
 
  @keyframes animate
 {
@@ -104,7 +121,7 @@ body{
         width: 100%;
     }
 } 
- 
+ /* footer */
     footer{
         /* transform: translateX(40%); */
         text-align: center;
@@ -115,11 +132,12 @@ body{
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         letter-spacing: 1px;
      } 
+     /* footer icon */
      footer i{
          color: red;
      }
 
-
+     /* animation properties for image */
     .container .design-logo{
         margin: 0px 0px 0px 00px;
        float: left;
@@ -127,7 +145,7 @@ body{
        animation: design-logo 20s linear ;
     
 }
-
+/* to making website responsive */
 @media only screen and (max-width:992px){
     .intro h1{
         margin: 50px 0px 0px 180px;
@@ -219,7 +237,7 @@ body{
 
 
 
-
+/* media query for tablets  */
  @media only screen and (max-width:767px){
      body{
          height: 100%;
@@ -315,7 +333,7 @@ body{
  }
 
 
-
+/* media query for mobile responsive website */
 @media only screen and (max-width:480px) {
     .intro h1{
         font-size: 20px;

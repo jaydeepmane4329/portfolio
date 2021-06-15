@@ -12,42 +12,50 @@ body{
     background-size: cover;
     background-position:center ;
 }
+/* for navabr background */
 .navbar-light{
     background: transparent !important;
 }
+/* navbar font size */
 .navbar-nav{
     font-size: 30px;
 }
+/* links of all four pages of website */
 .nav-link {
     color:grey !important;
     font-family: 'Viaoda Libre', cursive !important;
     font-weight: 900;
 }
+/* hovering effect of navbar  */
 .nav-link:hover{
     background-color: orange !important;
 }
+/* logo of navbar "jaydeep mane" */
 .navbar-brand{
     font-size: 50px;
     margin-left: 20px;
     font-family: 'Abril Fatface', cursive;
     color: darkorchid !important;
 }
+/* logo1 is for cartoon image in web page  */
 .logo1{
     /* width: 30%; */
     margin-top: 50px;
     float: left;
     animation: logo1 3s linear infinite;
 }
+/* /animation to vertical horizantal movement */
 @keyframes logo1{
     50%{
         transform: translateY(50px);
     }
 }
-
+/* row */
 .row{
     /* width: 60%; */
     margin-top: 100px;
 }
+/* bounce effect for educational information */
 @-webkit-keyframes bounceIn {
     from, 20%, 40%, 60%, 80%, to {
       -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -141,6 +149,7 @@ body{
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
+  /* heading of row "educational qualification */
 
 .row h1{
     height: auto;
@@ -152,6 +161,7 @@ body{
     padding: 10px;
     border: black solid 5px;
 }
+/* background for half box of  educational info background */
 .background{
     height: 60%;
     width: 100%;
@@ -160,6 +170,7 @@ body{
     border-top-right-radius: 20px;
     padding: 10px;
 }
+/* university education */
 .row .box-1{
     height:auto ;
     width: 900px;
@@ -168,18 +179,22 @@ body{
     border-top-right-radius:20px;
     border-bottom-left-radius: 20px;
 }
+/* hovering effect for box-1 */
 .box-1:hover{
     background-color:orange;
     transform: scale(1.1);
 }
+/* hoevering for 2nd box */
 .box-2:hover{
     background-color: orange;
     transform: scale(1.1);
 }
+/* hovering for 3rd box */
 .box-3:hover{
     background-color: orange;
     transform: scale(1.1);
 }
+/* higher secondary education */
 .row .box-2{
     height: auto;
     width: 900px;
@@ -188,6 +203,7 @@ body{
     border-top-right-radius:20px;
     border-bottom-left-radius: 20px;
 }
+/* schooling information */
 .row .box-3{
     height: auto;
     width: 900px;
@@ -196,6 +212,7 @@ body{
     border-top-right-radius:20px;
     border-bottom-left-radius: 20px;
 }
+/* information about education in detailes  */
 p{
     background-color:rgb(238, 244, 247);
     border-radius: 20px;
@@ -223,6 +240,7 @@ h5{
    padding: 10px;
    font-size: 15px;
 }
+/* links of institutes */
 .website {
     float: right;
     font-size: 15px;
@@ -230,13 +248,16 @@ h5{
     padding: 6px;
     border-radius: 5px;
 }
+/* anchor tag of websites */
 .website a{
     text-decoration: none;
     color: black;
 }
+/* hovering effect for websites */
 .website a:hover{
     background-color:rgb(230, 222, 222);
 }
+/* footer */
 footer{
     text-align: center;
     margin: 50px;
@@ -245,10 +266,11 @@ footer{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
 }
+/* footer icon */
 footer i{
     color: red;
 }
-
+/* media query for  ipads,tablets  */
 @media  only screen and (max-width:992px) {
 
     .logo1{
@@ -263,7 +285,7 @@ footer i{
     width: 100%;
 }
 }
-
+/* mobile rsponsive */
 @media only screen and (max-width:600px){
 
      .row h1{
