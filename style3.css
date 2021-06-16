@@ -438,6 +438,9 @@ footer i{
                  font-size: 18px;
                  background-color: rgb(93, 199, 93) !important;
         }
+        footer{
+          margin: 50px 0px 50px 0px;
+        }
 }
 /* mobile responsive */
 @media only screen and (max-width:500px){
