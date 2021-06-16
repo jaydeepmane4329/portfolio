@@ -260,7 +260,7 @@ h5{
 /* footer */
 footer{
     text-align: center;
-    margin: 50px;
+    margin: 50px 0px 50px 0px;
     clear: both;
     font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
