@@ -397,6 +397,9 @@ footer i{
          h1{
              30px
          }
+         footer{
+           margin: 50px 0px 50px 0px;
+         }
 }
 /* tablets  */
 @media only screen and (max-width:767px){
