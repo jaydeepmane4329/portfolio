@@ -41,9 +41,9 @@ body{
 }
 /* container holding all skill bars */
  .container{
-width: 50%;
-margin: 50px 0px 50px 150px;
-float: left;
+   width: 50%;
+   margin: auto;
+   float: left;
 }
 /* bounce-right animation for image */
 @-webkit-keyframes bounceInRight {
@@ -377,7 +377,6 @@ footer{
     font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
-    margin:50px 0px 50px 0px;
 }
 /* footer icon */
 footer i{
@@ -396,7 +395,7 @@ footer i{
             align-items: center;
          }
          h1{
-             30px
+             font-size: 30px;
          }
          footer{
            margin: 50px 0px 50px 0px;
@@ -445,23 +444,17 @@ footer i{
 }
 /* mobile responsive */
 @media only screen and (max-width:480px){
-  img{
-         width: 100%;
-         margin-left: 10px ;
-     }
-    .box-1{
-        width: 300px;
-      
-    }
-    .box-2{
-        width: 300px;
-    }
-    .box-3{
-        width: 300px;
-    }
-    .box-4{
-        width: 300px;
-    }
+
+  img{ 
+    width: 100%;
+    margin: auto;
+  }
+     .container{
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+      margin-bottom: 10px;
+      }
   h1{
       font-size: 22px;
   }
@@ -476,4 +469,12 @@ footer i{
            font-size: 18px;
            background-color: orange !important;
   }
+  footer{
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    clear: both;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
 }
