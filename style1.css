@@ -87,7 +87,10 @@ body{
 }
 /* given animation to image  */
 @keyframes design-logo{
-    50% { transform: scale(-0.5) };
+    50% { transform: scale(-0.0) };
+    100%{
+        transform: scale(0-.5);
+    }
 }
 footer{
     text-align: center;
@@ -158,8 +161,8 @@ color: red;
     } 
 
 /* media query for mobile responsive website */
-@media only screen and (max-width:500px) {
 
+  @media only screen and (max-width:500px) {
     .container{
         width: 100%;
         text-align: center;
@@ -215,8 +218,3 @@ color: red;
 .navbar-brand{
      font-size: 30px !important;
 }
-
-
-
-
-
