@@ -262,7 +262,36 @@ img{
     background-color:rgb(226, 226, 243);
     box-shadow: inset 0 0 20px rgb(89, 89, 255);
 }
-
+.box-5{
+  height: 40px;
+    width: 600px;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin: 30px 0px 0px 0px;
+    position: relative;
+    background-color:rgb(226, 226, 243);
+    box-shadow: inset 0 0 20px rgb(89, 89, 255);
+}
+.box-6{
+  height: 40px;
+    width: 600px;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin: 30px 0px 0px 0px;
+    position: relative;
+    background-color:rgb(226, 226, 243);
+    box-shadow: inset 0 0 20px rgb(89, 89, 255);
+}
+.box-7{
+  height: 40px;
+  width: 600px;
+  border: black solid 1px;
+  border-radius: 10px;
+  margin: 30px 0px 0px 0px;
+  position: relative;
+  background-color:rgb(226, 226, 243);
+  box-shadow: inset 0 0 20px rgb(89, 89, 255);
+}
 /* html icon */
 .html{
     margin-left: 10px;
@@ -287,10 +316,25 @@ img{
     font-size: 30px;
     color: yellow;
 }
+.java{
+  margin-left: 10px;
+  font-size: 30px;
+  color: skyblue;
+}
+.react{
+  margin-left: 10px;
+  font-size: 30px;
+  color: red;
+}
+.github{
+  margin-left: 10px;
+  font-size: 30px;
+  color: black;
+}
 /* innerside defined to give scale as 80%
 and give color darkorchid only for innerside portion  */
 .innerside1{
-    width: 80%;
+    width: 90%;
     animation: innerside1 2s;
     margin: 0;
     height: 40px;
@@ -302,7 +346,7 @@ and give color darkorchid only for innerside portion  */
 /* innerside defined to give scale as 70%
 and give color darkorchid only for innerside portion  */
 .innerside2{
-    width: 70%;
+    width: 80%;
     animation: innerside2 2s;
     margin: 0;
     height: 40px;
@@ -314,7 +358,7 @@ and give color darkorchid only for innerside portion  */
 /* innerside defined to give scale as 60%
 and give color darkorchid only for innerside portion  */
 .innerside3{
-    width: 60%;
+    width: 80%;
     animation: innerside3 2s;
     height: 40px;
     border-radius: 10px;
@@ -325,7 +369,7 @@ and give color darkorchid only for innerside portion  */
 /* innerside defined to give scale as 40%
 and give color darkorchid only for innerside portion  */
 .innerside4{
-    width: 20%;
+    width: 80%;
     animation: innerside4 2s;
     height: 40px;
     border-radius: 10px;
@@ -333,13 +377,40 @@ and give color darkorchid only for innerside portion  */
     position: absolute;
     overflow: hidden;
 }
+.innerside5{
+  width: 70%;
+  animation: innerside4 2s;
+  height: 40px;
+  border-radius: 10px;
+  background-color:rgb(89, 89, 255);;
+  position: absolute;
+  overflow: hidden;
+}
+.innerside6{
+  width: 50%;
+  animation: innerside4 2s;
+  height: 40px;
+  border-radius: 10px;
+  background-color:rgb(89, 89, 255);;
+  position: absolute;
+  overflow: hidden;
+}.innerside7{
+  width: 60%;
+  animation: innerside4 2s;
+  height: 40px;
+  border-radius: 10px;
+  background-color:rgb(89, 89, 255);;
+  position: absolute;
+  overflow: hidden;
+}
+
 /* to move innerside color automatically upto 80% portion */
 @keyframes innerside1{
     0%{
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 90%;
     }
 }
 /* to move innerside color automatically upto 70% portion */
@@ -348,7 +419,7 @@ and give color darkorchid only for innerside portion  */
         width:0%;
     }
     100%{
-         width: 70%;
+         width: 80%;
     }
 }
 /* to move innerside color automatically upto 60% portion */
@@ -357,7 +428,7 @@ and give color darkorchid only for innerside portion  */
          width: 0%;
      }
      100%{
-         width: 60%;
+         width: 80%;
      }
 }
 /* to move innerside color automatically upto 20% portion */
@@ -366,8 +437,33 @@ and give color darkorchid only for innerside portion  */
         width:0%
     }
     100%{
-        width: 20%;
+        width: 80%;
     }
+}
+
+@keyframes innerside5{
+  0%{
+      width:0%
+  }
+  100%{
+      width: 70%;
+  }
+}
+@keyframes innerside6{
+  0%{
+      width:0%
+  }
+  100%{
+      width: 50%;
+  }
+}
+@keyframes innerside7{
+  0%{
+      width:0%
+  }
+  100%{
+      width: 60%;
+  }
 }
 /* footer */
 footer{
